@@ -1,0 +1,48 @@
+netbook = francomjerez@gmail.com franco-desktop
+pc-mostri = francojerez25@gmail.com ivalu-desktop
+
+git init = para inicializa un proyecto nuevo y empezamos a trabajar en el working directory
+
+git status = para ver el estado de nuestros archivos
+
+git add <file> = para agregar un archivo al staging area.
+
+git config --global user.email "mail@ejemplo" (entre comillas)
+
+git config --global user.name "nombreejemplo" (entre comillas)
+
+git commit = para crear un primer punto de control de nuestro codigo.
+
+git log = para ver todos los commits que hemos creado
+
+git checkout -- <nombredelarchivo> = revertir los cambios de los archivos despues de usar git status
+
+git diff <nombredelarchivo> = ver las diferencias hechas en los archivos
+
+.gitignore = crear una carpeta con ese nombre, y agregar las cosas ahi
+
+git commit -m = "ejemplo" (entre comillas)mensaje sin entrar al editor de codigo
+
+git branch (nombre-rama) = crea una nueva rama
+
+git checkout (nombre-rama) = entra a la rama
+
+git add . = agrega todos los archivos al entorno
+
+##########
+Github.com
+
+git remote add origin (web https://) = donde vamos a almacenar el codigo
+
+git push -u origin master = login por consola
+
+git clone (url del proyecto) = descargar codigo desde github
+
+
+
+
+
+
+
+
+
