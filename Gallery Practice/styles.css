@@ -1,0 +1,86 @@
+body {
+	background-color: #1A5311;
+}
+
+/*Agrandar imagenes*/
+.g-img {
+	width: 150px;
+	height: 150px;
+}
+
+.g-img:hover {
+	width: 500px;
+	height: 500px;
+}
+
+/*Aca esta el nombre del autor con su hover*/
+.author {
+	display: none;
+}
+
+[class^="nombre"]:hover .author{
+	display: inline-block;
+}
+
+/*MAIN CONTAINER*/
+.galeria {
+	background: #77CB6E;
+	text-align: center;
+	padding: 2px 5em;
+	margin: 2em auto;
+	border: 2px black solid;
+}
+
+/*PERSONALIZACION HEADER*/
+
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.head-container {
+	color: white;
+	background-color: #4ACF98;
+	width: 100%;
+	margin-top: -1em;
+	padding: 10px;
+}
+
+.header__nav-ul {
+	display: flex;
+	justify-content: flex-end;
+}
+.header__nav-ul-li {
+	
+	background-color: #284F3E;
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+/*PERSONALIZACION GALLERY*/
+
+.galeria {
+	margin: 100px 200px;
+}
+
+[class^="nombre"] {
+	text-align: center;
+	display: inline-block;
+	width: 230px;
+	font-weight: bolder;
+	border: 3px dashed grey;
+}
+
+.author {
+	border: 2px solid black;
+	padding: 2px 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+li

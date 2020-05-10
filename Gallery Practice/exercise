@@ -1,0 +1,36 @@
+¿Qué hay que conseguir? 	
+Queremos una página en que salga la lista de cuadros y títulos que hay en el recuadro de abajo, pero no los autores. Al principio todos los cuadros serán de 20 píxels y cuando el usuario pase el ratón sobre uno de ellos aumentará a 200 píxels. En el caso de que el usuario pase el cursor sobre el título queremos que aparezca en un pequeño cuadro el autor correspondiente.
+
+
+
+###########################################
+Pistas
+Si ves cómo empezar a hacerlo ponte con ello. Si no, a continuación te iré dando indicaciones y pistas. Ten a mano la parte de referencia, porque te diré los nombres de las etiquetas, pero no cómo se escribe cada una. Eso está en la referencia. Para más agilidad hay detalles si pasas el ratón sobre cada indicación o etiqueta mencionada y aún más detalles si pulsas sobre ello.
+
+Versión inicial, sin respuesta al ratón
+Necesitarás las imágenes. Guarda cada una con el botón derecho en una carpeta en que vayas a hacer esto.
+
+Empieza poniendo la parte que va siempre (etiquetas doctype, html, head, meta, body). Deja preparada dentro de la parte head una etiqueta style, aunque de momento sin nada dentro.
+
+El conjunto de cuadros es una lista, prepara las etiquetas que abrazan toda la lista (ul) y deja preparada una etiqueta li para cada cuadro.
+
+Ahora pon, en cada etiqueta li una etiqueta img con src= y el nombre del archivo entre comillas. Detrás pones el nombre de cada título. De momento, olvídate de los autores
+
+Prueba la página en el navegador para comprobar que hasta aquí vamos bien.
+
+Imágenes pequeñas
+Pon a cada una de las etiquetas img el atributo class= con un nombre de categoría que te parezca bien.
+
+Dentro de la parte style prepara el formato para esa categoría, de forma que su anchura sea de 20 píxels.
+
+Comprueba el efecto en el navegador. Tienes que ver la lista de imágenes y todas pequeñitas.
+
+Imágenes que crecen con el ratón
+En la parte style añade otra clase que es la misma que la anterior pero con el añadido :hover. Ponle la anchura a 200 píxels.
+
+¡Con eso ya lo hará! Compruébalo en el navegador
+
+Cuadro que aparece con el autor
+Rodea cada título con una etiqueta span que lleve title= y el autor entre comillas.
+
+¡Listo! Comprueba en el navegador.
